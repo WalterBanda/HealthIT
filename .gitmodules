@@ -1,0 +1,3 @@
+[submodule "cpims-ovc-3.0"]
+	path = cpims-ovc-3.0
+	url = git@github.com:WalterBanda/cpims-ovc-3.0.git
