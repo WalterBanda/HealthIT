@@ -4,3 +4,9 @@
 [submodule "cpims-dcs-3.0"]
 	path = cpims-dcs-3.0
 	url = git@github.com:WalterBanda/cpims-dcs-3.0.git
+[submodule "openmrs-module-kenyaemr"]
+	path = openmrs-module-kenyaemr
+	url = git@github.com:WalterBanda/openmrs-module-kenyaemr.git
+[submodule "openmrs-module-kenyaemrIL"]
+	path = openmrs-module-kenyaemrIL
+	url = git@github.com:WalterBanda/openmrs-module-kenyaemrIL.git
