@@ -10,3 +10,12 @@
 [submodule "openmrs-module-kenyaemrIL"]
 	path = openmrs-module-kenyaemrIL
 	url = git@github.com:WalterBanda/openmrs-module-kenyaemrIL.git
+[submodule "openmrs-module-kenyaui"]
+	path = openmrs-module-kenyaui
+	url = git@github.com:WalterBanda/openmrs-module-kenyaui.git
+[submodule "ehrreports"]
+	path = ehrreports
+	url = git@github.com:WalterBanda/ehrreports.git
+[submodule "ipd"]
+	path = ipd
+	url = git@github.com:WalterBanda/ipd.git
