@@ -8,7 +8,7 @@ This projects help solve and improve health services across africa. You can lear
 
 # Setup for Monorepo
 
-The monorepo consists of submodules so a clone of the project won't cut it. You have to initialize the respective repositories {Clone the various repositories}.
+The monorepo consists of submodules so a clone of the project is not enough. You have to initialize the respective repositories {Clone the various repositories}.
 
 To initialize the monorepo, run the following
 
