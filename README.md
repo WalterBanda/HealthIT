@@ -13,11 +13,7 @@ The monorepo consists of submodules so a clone of the project won't cut it. You 
 To initialize the monorepo, run the following
 
 ```bash
-git submodule init
+git submodule update --init
 ```
 
-Then update the repository contents by running
-
-```bash
-git submodule update
-```
+This clones and does a checkout on the respective submodules.
