@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  kenyaemr:
+    image: kenyaemr_test_1
+    build: 
+      context: .
+      dockerfile: ./docker/kenyaemr/Dockerfile
+    ports:
+      - "8080:8080"
