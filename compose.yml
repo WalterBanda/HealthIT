@@ -1,10 +1,27 @@
 version: '1.0'
 
+volumes:
+  kenyaemr_data: {}
+
 services:
   kenyaemr:
+    depends_on:
+      - kenyaemr_db
     image: kenyaemr_test_1
     build: 
       context: .
       dockerfile: ./docker/kenyaemr/Dockerfile
     ports:
       - "8080:8080"
+  
+  kenyaemr_db:
+    image: kenyaemr_db
+    build: 
+      context: .
+      dockerfile: ./docker/kenyaemr-db/Dockerfile
+    ports:
+      - "3306:3306"
+    env_file:
+      - ./docker/kenyaemr-db/.mysql
+    volumes:
+      - kenyaemr_data:/var/lib/mysql
